@@ -101,8 +101,8 @@ h1 {
   height: 100%;
   font-weight: 400;
   font-size: 0.7rem;
-  padding: 1rem;
   color: steelblue;
+  padding-top: 10px;
 }
 
 #stripe {
@@ -126,10 +126,14 @@ h1 {
 }
 
 @media (max-width: 500px) {
-  /* .square {
-    min-width: 100px;
-    min-height: 100px;
-  } */
+  html {
+    font-size: 60%;
+  }
+
+  .square {
+    min-width: 90px;
+    min-height: 90px;
+  }
 
   .container {
     max-height: 500px;
